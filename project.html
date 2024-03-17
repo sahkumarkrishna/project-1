@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg  navbar-dark positon-fixed" style="background-color: red;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Company</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">content</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              other
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">App Development</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Software</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success text-white" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- slider -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/img/web development.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/Mobile App Developer.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/software development.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/SEO -.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/javascript.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container-fluid">
+    <!-- tagline -->
+    <div class="row">
+      <div class="col-12">
+        <h3 class="display-30 text-center mt-5 mt-2">
+          development point is the location of the contradiction and the area <br>
+          where change efforts are needed within the networked work activity system. </h3>
+
+
+      </div>
+
+      <!-- feature -->
+      <div class="row justify-content-evenly pt-3 pb-3">
+        <div class="col-md-3 text-center mt-5">
+
+          <h1> <i class="bi bi-browser-chrome text-primary"></i></h1>
+          <h5>Web Development</h5>
+          <p>Web development is the act of building, creating and maintaining websites and applications on the
+            internet. It involves front-end, back-end and full-stack .</p>
+
+        </div>
+        <div class="col-md-3 text-center mt-5">
+          <h1><i class="bi bi-google-play text-danger"></i></h1>
+          <h5>App Development</h5>
+          <p>App development is the process of building applications for use on
+            various operating systems through the use of one or more programming languages.</p>
+
+        </div>
+        <div class="col-md-3 text-center mt-5">
+          <h1><i class="bi bi-code-slash text-success"></i></h1>
+          <h5>Software Developers</h5>
+          <p>A software developer is a person or company engaged in a software development process, including research,
+            design, programming, testing, and other facets of creating computer software.</p>
+
+        </div>
+      </div>
+      <!-- line -->
+
+      <hr>
+      <!-- software requirements specification -->
+      <div class="row justify-content-evenly pt-3 pb-5">
+        <div class="col-md-5 pt-3">
+          <img src="/img/SRS.jpeg" class="=img-fluide" width="100% " height="350px" alt="">
+        </div>
+        <div class="col-md-5" pt-3>
+          <h5 class="mt-3">Website Devlopment</h5>
+          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar bg-success" style="width: 25%"></div>
+          </div>
+          <h5 class="mt-3">App Devlopment</h5>
+          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar bg-info" style="width: 50%"></div>
+          </div>
+          <h5 class="mt-3">Software Devlopment</h5>
+          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar bg-warning" style="width: 75%"></div>
+          </div>
+          <h5 class="mt-3">SEO</h5>
+          <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar bg-danger" style="width: 100%"></div>
+          </div>
+          <h5 class="mt-3">Javascript</h5>
+          <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width: 100%"></div>
+          </div>
+        </div>
+
+        <!-- contact -->
+        <div class="row  pt-2 pd-5" style="background-color: #f1f1f1;">
+          <div class="col-md-5 mt-5">
+            <h3 class="mb-4">Contact Form</h3>
+
+            <div class="mb-3">
+              <label for="Name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="Name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Submit</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="md-5" mt-5>
+          <h3 class="mb-4">Address</h3>
+          <p>1180 kimberly way,WILLISTON PARK <br>
+            new yor - 11596 <br>
+            <i class="bi bi-telephone"></i> : 917-77275081
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14295.
+                                   098278420275!2d87.24642534587129!3d26.39846975159258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                                   1!3m3!1m2!1s0x39ef759c75044f39%3A0xae2ef46dabc58149!2sJogbani%2C%20Bihar!5e0!3m2!1sen!2sin!4v1709187686017!5m2!1sen!2sin"
+            width="100%" height="400" style="border:0;" allowfullscreen="" width="100%" height="400" style="border:0;"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+      </div>
+      <!-- FAQ -->
+      <div class="row justify-content-evenly pb-5">
+        <div class="col-md-10">
+          <h3 class="text-center pb-4">FAQ</h3>
+          <div class="accordion accordion-flush border" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Google
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Google is an American multinational technology company focusing on online
+                  advertising, search engine technology, cloud computing, computer
+                  software, quantum computing, e-commerce, consumer electronics, and artificial intelligence. It has
+                  been referred to as "the most powerful company in the world"
+                  and as one of the world's most valuable brands due to its market dominance, data collection, and
+                  technological advantages in the field of artificial intelligence.[11][12][13] Google's parent company
+                  Alphabet Inc.
+                  is one of the five Big Tech companies, alongside Amazon, Apple, Meta, and Microsoft.</code> </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Microsoft
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Microsoft Corporation is an American multinational technology corporation
+                  headquartered in Redmond, Washington. It is also incorporated in Washington.
+                  Microsoft's best-known software products are the Windows line of operating systems, the Microsoft 365
+                  suite of productivity applications, and the Edge web browser. Its flagship hardware products are the
+                  Xbox video game
+                  consoles and the Microsoft Surface lineup of touchscreen personal computers. Microsoft ranked No. 14
+                  in the 2022 Fortune 500 rankings of the largest United States corporations by total revenue;[3] and it
+                  was the world's largest software maker by revenue in 2022 according to Forbes Global 2000. It is
+                  considered one of the Big Five American information technology companies,
+                  alongside Alphabet (parent company of Google), Amazon, Apple, and Meta (parent company of Facebook).
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Amazon
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Amazon.com, Inc.doing business as Amazon is an American multinational
+                  technology company focusing on e-commerce,
+                  cloud computing, online advertising, digital streaming, and artificial intelligence.
+                  It is considered one of the Big Five American technology companies; the other four are Alphabet
+                  (parent company of Google), Apple, Meta (parent company of Facebook), and Microsoft.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer class="bg-dark text-white pt-5 bt-4">
+        <div class="container text-center text-md-left">
+          <div class="row text-center text-md-left">
+            <div class="col-md-3 cal-lg-3 cal-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-wieghg-bold text-warning">Company Name</h5>
+              <p>
+                Google <br>
+                Microsoft <br>
+                Amazon <br>
+                Netfix <br>
+                Paypal <br>
+                Flikart <br>
+              </p>
+            </div>
+            <div class="col-md-2 cal-lg-2 cal-xl-2 mx-auto mt-3">
+              <h5 class=" text-uppercase mb-4 font-wieghg-bold text-warning">products</h5>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">TheProviders</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Creativity</a>
+
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">SourceFiles</a>
+
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Bootstrap 5 alpha</a>
+
+              </p>
+            </div>
+            <div class="col-md-3 cal-lg-2 cal-xl-2 mx-auto mt-3">
+              <div class=" text-uppercase mb-4 font-wieghg-bold text-warning">Useful links</h5>
+                <p>
+                  <a href="#" class="text-white" style="text-decoration: none;">Your Account</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white" style="text-decoration: none;">Become an Affiliates</a>
+
+                </p>
+                <p>
+                  <a href="#" class="text-white" style="text-decoration: none;">Shipping rates</a>
+
+                </p>
+                <p>
+                  <a href="#" class="text-white" style="text-decoration: none;">Help</a>
+
+                </p>
+              </div>
+
+
+
+      </footer>
+      <!-- container-end -->
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+      </script>
+</body>
+
+</html>
